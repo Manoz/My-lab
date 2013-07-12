@@ -12,11 +12,11 @@
         <div id="main" role="main">
             <h2>I'm a title :</h2>
             <ul>
-                <li><a title="" href="">An element</a></li>
-                <li><a title="" href="projects/Project-1/">Project 1</a></li>
+                <li><a target="_blank" title="" href="">An element</a></li>
+                <li><a target="_blank" title="" href="projects/Project-1/">Project 1</a></li>
                 <li class="disabled">Disabled element</li>
-                <li><a title="" href="projects/Project-2/">Project 2</a></li>
-                <li><a title="" href="projects/Project-3/">Project 3</a></li>
+                <li><a target="_blank" title="" href="projects/Project-2/">Project 2</a></li>
+                <li><a target="_blank" title="" href="projects/Project-3/">Project 3</a></li>
             </ul>
         </div>
 
