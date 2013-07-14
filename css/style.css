@@ -8,20 +8,13 @@
     Formated with CSSLisible - http://github.com/Darklg/CSSLisible
     ========================================================= */
 
+@import 'fonts.css';
+
 /* =Structure
 ---------------------------------------------------------*/
 
-::-moz-selection {
-    text-shadow: none;
-    color: #fff;
-    background: #e3745f;
-}
-
-::selection {
-    text-shadow: none;
-    color: #fff;
-    background: #e3745f;
-}
+::-moz-selection {text-shadow: none;color: #fff;background: #e3745f;}
+::selection {text-shadow: none;color: #fff;background: #e3745f;}
 
 html {height: 100%;}
 
@@ -87,7 +80,7 @@ code {
 }
 
 strong {
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 /* =Header
@@ -95,8 +88,7 @@ strong {
 
 header h1 {
     margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 40px;
 }
 
@@ -108,19 +100,34 @@ header h1 span {color: #e3745f;}
 
 #main h2 {
     margin-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 30px;
+}
+
+#main h3 {
+    font-weight: 400;
+    font-size: 20px;
 }
 
 #main ul {
     padding-left: 40px;
-    list-style: circle;
 }
 
 #main ul li.disabled {
     color: #b6b6b6;
     cursor: default;
+}
+
+#main ul li.github:before {
+    font-family: 'fontello';
+    content: '\e800';
+    margin-right: 5px;
+}
+
+#main ul li:before {
+    font-family: 'fontello';
+    content: '\e801';
+    margin-right: 5px;
 }
 
 .sep {

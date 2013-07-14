@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?85003360');
+  src: url('../fonts/fontello.eot?85003360#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?85003360') format('woff'),
+       url('../fonts/fontello.ttf?85003360') format('truetype'),
+       url('../fonts/fontello.svg?85003360#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* My font
+.icon-github:before { content: '\e800'; }
+.icon-link:before { content: '\e801'; }
+*/

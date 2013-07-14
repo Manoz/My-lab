@@ -10,13 +10,25 @@
         </header>
 
         <div id="main" role="main">
-            <h2>I'm a title :</h2>
+            <h2>I'm a title</h2>
+            <p>And of course, a little Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet nisi placerat, fringilla est lobortis, blandit justo. Proin pharetra lacus id turpis congue feugiat elementum a turpis. Vestibulum tincidunt velit ac convallis vulputate.</p>
+            <p>And of course, a little Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet nisi placerat, fringilla est lobortis, blandit justo. Proin pharetra lacus id turpis congue feugiat elementum a turpis. Vestibulum tincidunt velit ac convallis vulputate.</p>
+
+            <h3>I'm another title</h3>
             <ul>
                 <li><a target="_blank" title="" href="">An element</a></li>
                 <li><a target="_blank" title="" href="projects/Project-1/">Project 1</a></li>
                 <li class="disabled">Disabled element</li>
                 <li><a target="_blank" title="" href="projects/Project-2/">Project 2</a></li>
                 <li><a target="_blank" title="" href="projects/Project-3/">Project 3</a></li>
+            </ul>
+            <br>
+            <h3>Again, I'm another title</h3>
+            <ul>
+                <li class="disabled github">Disabled element</li>
+                <li class="github">
+                    <a target="_blank" title="Github repo" href="https://github.com/Manoz/My-lab">Fork me on Github</a>
+                </li>
             </ul>
         </div>
 
