@@ -6,4 +6,4 @@ My-lab
 The CSS is not perfect but this is very useful and simple for me.
 Use at your own risk :)
 
-**Démo :** http://lab.manoz.fr/
+**Demo :** http://lab.mwanoz.fr/
